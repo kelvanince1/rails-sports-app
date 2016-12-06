@@ -119,3 +119,5 @@ Team.create(team: 'Seattle')
 Team.create(team: 'Tampa Bay')
 Team.create(team: 'Tennessee')
 Team.create(team: 'Washington')
+
+r = Ranking.create()

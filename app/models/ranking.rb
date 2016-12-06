@@ -1,3 +1,6 @@
 class Ranking < ApplicationRecord
-  belongs_to :players
+  validates :team, presence: true
+
+  belongs_to :players, optional: true
+  belongs_to :teams
 end

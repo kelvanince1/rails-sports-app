@@ -3,6 +3,7 @@ class CreateRankings < ActiveRecord::Migration[5.0]
     create_table :rankings do |t|
       t.string :player
       t.string :team
+      t.ranking :integer
 
       t.timestamps
     end
