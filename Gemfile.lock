@@ -36,7 +36,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   listen (~> 3.0.5)
-  pg
+  pg (~> 0.18)
   puma (~> 3.0)
   rack-cors
   spring
