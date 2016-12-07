@@ -120,4 +120,7 @@ Team.create(team: 'Tampa Bay')
 Team.create(team: 'Tennessee')
 Team.create(team: 'Washington')
 
-r = Ranking.create()
+star = Start.create(player: 'Andrew Luck', start_em: 'vs Texans. Luck was flawless against the Jets on Monday night. Expect another productive night this Sunday, even against a good Texans defence.')
+Start.create(player: 'Phillip Rivers', start_em: 'vs Panthers. Rivers has been on good form this season and has a mathchup agains an ailing Panthers defence this Sunday. Expect points.')
+Start.create(player: 'Jameis Winston', start_em: 'vs Saints. How about this guy? Winston played like a veteran in the Bucs week 12 win over the Seahawks, then this past Sunday went to San Diego and won a shootout with the Chargers effective offense. No reason that will stop against the Saints this Sunday.')
+Start.create(player: 'Eli Manning', start_em: 'vs Cowboys. Expect the Giants to put up  more points against the Cowboys on Sunday night football than the Vikings did last week. Manning has been far from amazing and susceptible to errors in the red zone. But this game looks good for Eli, on paper at least. ')

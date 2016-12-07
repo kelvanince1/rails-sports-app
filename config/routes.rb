@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :starts
   resources :stats
   resources :rankings
   resources :startsits
