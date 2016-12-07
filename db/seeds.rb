@@ -121,6 +121,11 @@ Team.create(team: 'Tennessee')
 Team.create(team: 'Washington')
 
 star = Start.create(player: 'Andrew Luck', start_em: 'vs Texans. Luck was flawless against the Jets on Monday night. Expect another productive night this Sunday, even against a good Texans defence.')
-Start.create(player: 'Phillip Rivers', start_em: 'vs Panthers. Rivers has been on good form this season and has a mathchup agains an ailing Panthers defence this Sunday. Expect points.')
+Start.create(player: 'Phillip Rivers', start_em: '@ Panthers. Rivers has been on good form this season and has a mathchup agains an ailing Panthers defence this Sunday. Expect points.')
 Start.create(player: 'Jameis Winston', start_em: 'vs Saints. How about this guy? Winston played like a veteran in the Bucs week 12 win over the Seahawks, then this past Sunday went to San Diego and won a shootout with the Chargers effective offense. No reason that will stop against the Saints this Sunday.')
-Start.create(player: 'Eli Manning', start_em: 'vs Cowboys. Expect the Giants to put up  more points against the Cowboys on Sunday night football than the Vikings did last week. Manning has been far from amazing and susceptible to errors in the red zone. But this game looks good for Eli, on paper at least. ')
+Start.create(player: 'Eli Manning', start_em: 'vs Cowboys. Expect the Giants to put up  more points against the Cowboys on Sunday night football than the Vikings did last week. Manning has been far from amazing and susceptible to errors in the red zone. But this game looks good for Eli, on paper at least.')
+
+sit = Sit.create(player: 'Marcus Mariota', sit_em: 'vs Broncos. The Broncos D has been the most effective in the league against the pass. Look for the Titans to utilize their running game more than their passing this Sunday. ')
+Sit.create(player: 'Aaron Rodgers', sit_em: 'vs Seahawks. It would not surprise too many if the Packers go on a run and end up making the playoffs, but this weekends matchup against Seattle is a tricky one to maneuvre past. Rodgers should see a slightly lower return than usual')
+Sit.create(player: 'Sam Bradford', sit_em: '@Jaguars. The Jaguars have been statistically surprisingly effective against opposition quarterbacks. The Vikings offense has issues. Better to count on seeing lower production from them again this Sunday.')
+Sit.create(player: 'Ben Roethlisberger', sit_em: '@Bills. Be cautious with Big Ben this Sunday. Playing Buffalo in New York can be a tough one. This game has big potentail to be a low scoring affair.')
