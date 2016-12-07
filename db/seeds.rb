@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # Player.destroy_all
-# Team.destroy_all
+Team.destroy_all
 Start.destroy_all
 Sit.destroy_all
 PlayerRankingsQb.destroy_all
@@ -50,6 +50,39 @@ PlayerRankingsTe.create(name: 'Delanie Walker', remaining_schedule: '')
 PlayerRankingsTe.create(name: 'Travis Kelce', remaining_schedule: '')
 PlayerRankingsTe.create(name: 'Cameron Brate', remaining_schedule: '')
 PlayerRankingsTe.create(name: 'Dwayne Allen', remaining_schedule: '')
+
+t = Team.create(team: 'Atlanta')
+Team.create(team: 'Arizona')
+Team.create(team: 'Baltimore')
+Team.create(team: 'Buffalo')
+Team.create(team: 'Carolina')
+Team.create(team: 'Chicago')
+Team.create(team: 'Cincinnati')
+Team.create(team: 'Cleveland')
+Team.create(team: 'Dallas')
+Team.create(team: 'Denver')
+Team.create(team: 'Detroit')
+Team.create(team: 'Green Bay')
+Team.create(team: 'Houston')
+Team.create(team: 'Indianapolis')
+Team.create(team: 'Jacksonville')
+Team.create(team: 'Kansas City')
+Team.create(team: 'Los Angeles')
+Team.create(team: 'Miami')
+Team.create(team: 'Minnesota')
+Team.create(team: 'New England')
+Team.create(team: 'New Orleans')
+Team.create(team: 'New York Jets')
+Team.create(team: 'New York Giants')
+Team.create(team: 'Oakland')
+Team.create(team: 'Philadelphia')
+Team.create(team: 'Pittsburgh')
+Team.create(team: 'San Diego')
+Team.create(team: 'San Francisco')
+Team.create(team: 'Seattle')
+Team.create(team: 'Tampa Bay')
+Team.create(team: 'Tennessee')
+Team.create(team: 'Washington')
 
 star = Start.create(player: 'Andrew Luck', start_em: 'vs Texans. Luck was flawless against the Jets on Monday night. Expect another productive night this Sunday, even against a good Texans defence.')
 Start.create(player: 'Phillip Rivers', start_em: '@ Panthers. Rivers has been on good form this season and has a mathchup agains an ailing Panthers defence this Sunday. Expect points.')
