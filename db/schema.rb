@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161207213333) do
+ActiveRecord::Schema.define(version: 20161209044127) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20161207213333) do
     t.text     "remaining_schedule"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+    t.integer  "rank"
   end
 
   create_table "player_rankings_rbs", force: :cascade do |t|
